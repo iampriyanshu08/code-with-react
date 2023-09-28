@@ -5,9 +5,12 @@ function App() {
   const [counter, setCounter] = useState(15);
 
   const increase = () => {
-    if (counter <= 19) {
-      setCounter(counter + 1);
-    }
+    // if (counter <= 19) {
+      setCounter(counter =>counter+1);
+      setCounter(counter =>counter+1);
+      setCounter(counter =>counter+1);
+      setCounter(counter =>counter+1);
+      
   };
   const decrease = () => {
     if (counter >=1) {
